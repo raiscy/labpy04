@@ -57,7 +57,16 @@ PROSES OUTPUT HASIL
 ![hasil praktikum](https://github.com/user-attachments/assets/21d2f2ad-c64d-4805-bf05-3246be919eae)
 
 PENJELASAN : 
+1. Penggunaan while True berguna untuk terus meminta input dari pengguna atau pengulangan sampai diputuskan untuk berhenti oleh sang pengguna dengan menjawab antara 'y' atau 't'
+2. Penginputan data mahasiswa yang berisi nama, nilai tugas, UTS, UAS, bertipe float yang memungkinkan pengguna memasukkan angka desimal
+3. Penghitungan nilai akhir berdasarkan bobot yang telah ditentukan seperti, tugas:30%, UTS35%, UAS35% dan hasil penghitungan nilai akhir disimpan kedalam variable nilai_akhir
+4. Penyimpanan data kedalam list dengan menggunakan metode append()
+5. Menanyakan apakah ada data yang ingin ditambahkan atau tidak. Jika jawabannya 't' maka program akan berhenti dan mengeluarkan hasil penghitungan
+6. Menampilkan data yang telah selesai diolah
 
+FLOWCHART : 
+
+# Latihan 
 
 
 
