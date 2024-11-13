@@ -66,6 +66,9 @@ PENJELASAN :
 
 FLOWCHART : 
 
+![flowchart](https://github.com/user-attachments/assets/06e94ebd-b023-4561-9482-b85af296a77d)
+
+
 # Latihan 
 
 
