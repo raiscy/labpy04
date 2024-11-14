@@ -68,8 +68,77 @@ FLOWCHART :
 
 ![flowchart](https://github.com/user-attachments/assets/06e94ebd-b023-4561-9482-b85af296a77d)
 
-
 # Latihan 
+
+Buat sebuah list sebanyak 5 elemen dengan nilai bebas
+1. akses list: tampilkan elemen ke 3, ambil nilai elemen ke 2 sampai elemen ke 4, ambil elemen terakhir
+2. ubah elemen list: ubah elemen ke 4 dengan nilai lainnya, ubah elemen ke 4 sampai dengan elemen terakhir
+3. tambah elemen list: ambil 2 bagian dari list pertama (A) dan jadikan list ke 2 (B), tambah list B dengan nilai string, tambah list B dengan 3 nilai, gabungkan list B dengan list A
+
+        # Membuat list dengan 5 elemen
+        A = [10, 20, 30, 40, 50]
+
+        # Akses list
+        print("List A:", A)
+
+        # Tampilkan elemen ke-3
+        print("Elemen ke-3:", A[2])
+
+        # Ambil nilai elemen ke-2 sampai elemen ke-4
+        print("Elemen ke-2 sampai ke-4:", A[1:4])
+
+        # Ambil elemen terakhir
+        print("Elemen terakhir:", A[-1])
+
+        # Ubah elemen list
+        # Ubah elemen ke-4 dengan nilai lainnya
+        A[3] = 100
+        print("Setelah mengubah elemen ke-4:", A)
+
+        # Ubah elemen ke-4 sampai dengan elemen terakhir
+        A[3:] = [200, 300]
+        print("Setelah mengubah elemen ke-4 sampai terakhir:", A)
+
+        # Tambah elemen list
+        # Ambil 2 bagian dari list pertama (A) dan jadikan list ke-2 (B)
+        B = A[1:3]
+        print("List B (dari A):", B)
+
+        # Tambah list B dengan nilai string
+        B.append("String")
+        print("Setelah menambah string ke B:", B)
+
+        # Tambah list B dengan 3 nilai
+        B.extend([400, 500, 600])
+        print("Setelah menambah 3 nilai ke B:", B)
+
+        # Gabungkan list B dengan list A
+        C = A + B
+        print("List C (gabungan A dan B):", C)
+
+PROSES INPUT DATA
+![Screenshot 2024-11-14 131534](https://github.com/user-attachments/assets/5520dd56-8f65-459f-8ac8-7209b829789b)
+![Screenshot 2024-11-14 131624](https://github.com/user-attachments/assets/f4f949c2-3ebc-4d36-8f9d-e636092026ec)
+
+HASIL OUTPUT 
+![Screenshot 2024-11-14 131741](https://github.com/user-attachments/assets/0b266eed-ba9a-4a28-81de-0656e6a8d99f)
+
+PENJELASAN : 
+1. Di sini, kita membuat sebuah list bernama A yang berisi 5 elemen dengan nilai bebas: 10, 20, 30, 40, dan 50.
+2. Mengakses elemen ke-3 dari list A. Dalam Python, indeks dimulai dari 0, jadi A[2] merujuk pada elemen ketiga, yaitu 30.
+3. Mengambil elemen dari indeks 1 sampai 3 (indeks 4 tidak termasuk). Ini akan menghasilkan list baru yang berisi [20, 30, 40].
+4. Mengakses elemen terakhir dari list A menggunakan indeks negatif. A[-1] merujuk pada elemen terakhir, yaitu 50.
+5. Mengubah elemen ke-4 (indeks 3) menjadi 100. Setelah perubahan, list A menjadi [10, 20, 30, 100, 50].
+6. Mengubah elemen dari indeks 3 hingga akhir list menjadi [200, 300]. List A sekarang menjadi [10, 20, 30, 200, 300].
+7. Membuat list baru B yang berisi elemen dari A mulai dari indeks 1 sampai 2, yaitu [20, 30].
+8. Menambahkan string "String" ke dalam list B. List B sekarang menjadi [20, 30, 'String'].
+9. Menambahkan tiga nilai (400, 500, 600) ke dalam list B. List B sekarang menjadi [20, 30, 'String', 400, 500, 600].
+10. Menggabungkan list A dan B menjadi list baru C. List C berisi semua elemen dari A diikuti oleh semua elemen dari B. Hasilnya adalah [10, 20, 30, 200, 300, 20, 30, 'String', 400, 500, 600].
+
+
+
+
+
 
 
 
